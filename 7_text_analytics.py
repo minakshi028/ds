@@ -78,7 +78,8 @@ documents = [
 vectorizer = TfidfVectorizer()
 tfidf_matrix = vectorizer.fit_transform(documents)
 
-#Display Feature Namesprint("Feature Names:")
+#Display Feature Names
+print("Feature Names:")
 print(vectorizer.get_feature_names_out())
 
 #Display TF-IDF Matrix
